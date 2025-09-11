@@ -43,15 +43,11 @@ Standard implementation of centralized training using the DINO backbone.
 Federated_learning_server.ipynb
 Initial server-side script for federated learning — primarily supports IID data settings.
 
-federated_model_visual_classification.ipynb
+federated_model_clients.ipynb
 Basic federated learning client-side implementation, focused on IID data distribution.
 
-Federated_learning_server_v2.ipynb
-Advanced server implementation designed for non-IID data scenarios. Includes support for proposed methods currently under development.
-
-federated_model_visual_classification_v2.ipynb
-Updated client-side notebook tailored for non-IID data and experimental techniques. Works in tandem with the v2 server script.
-
+FederatedLearning_Integrated.ipynb
+Integrated Federated learning scenario in this notebook both server and clients are placed and work in a loop to maximize the speed and resource efficiency. **This notebook is the must uptodate code and contains the personal contribution of the group (GVF)!**
 ## 🚀 How to Run
 
 This project runs in **Google Colab**. No local setup is required.
@@ -73,7 +69,6 @@ This project runs in **Google Colab**. No local setup is required.
 
 Planned improvements:
 - Visualizations for training progress (accuracy, loss, etc.)
-- Evaluation metrics (e.g., confusion matrix, per-class accuracy)
 - Completion of server-side model aggregation
 
 ## 👥 Team & Contributions
